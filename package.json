@@ -1,0 +1,27 @@
+{
+  "name": "loproxy-nodejs",
+  "version": "1.0.0",
+  "description": "Request the target of your choice by passing through one of your local port as a proxy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muceres/loproxy-nodejs.git"
+  },
+  "keywords": [
+    "loproxy",
+    "nodejs",
+    "proxy"
+  ],
+  "author": "muceres",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muceres/loproxy-nodejs/issues"
+  },
+  "homepage": "https://github.com/muceres/loproxy-nodejs#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
