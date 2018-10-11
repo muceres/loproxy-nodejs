@@ -13,6 +13,7 @@ app.use(morgan(`✔ sended from localhost ${port} to ${baseUrl}:  :method :url :
 
 app.use('/', (req, res) => {
   req.pipe(request(`${baseUrl}${req.url}`)).pipe(res);
+  res.set('Access-Control-Allow-Origin', '*');
 });
 
 
